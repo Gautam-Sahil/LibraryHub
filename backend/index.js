@@ -8,20 +8,20 @@ import userRoutes from './routes/user.route.js';
 dotenv.config();
 
 const app = express();
-const PORT = process.env.PORT || 4000;
+const PORT = process.env.PORT || 4001;
 const URI = process.env.Mongo_URI;
 
 
 app.use(cors({
   origin: [
     "http://localhost:5173", 
-    
-  "https://libraryhub-jywl.onrender.com"  
+    'https://library-hub-omega.vercel.app',
+   "https://libraryhub-jywl.onrender.com"  
   ],
   methods: ["GET", "POST", "PUT", "DELETE"],
   credentials: true
 }));
-app.options('*', cors());
+
 
 app.use(express.json());
 
