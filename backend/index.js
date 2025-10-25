@@ -9,7 +9,7 @@ dotenv.config();
 
 const app = express();
 
-app.use(cors({ origin: '*' }));
+app.use(cors({ origin: 'https://library-hub-eight.vercel.app/' }));
 app.use(express.json());
 
 

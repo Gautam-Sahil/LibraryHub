@@ -11,7 +11,7 @@ function Freebook() {
   useEffect(() => {
     const getbook = async () => {
       try {
-        const res = await axios.get(`${import.meta.env.VITE_API_URL}/book`);
+        const res = await axios.get("https://libraryhub-jywl.onrender.com/book");
         
         const data = res.data.filter((data) => data.categry === "Free");
         setBook(data);
