@@ -21,7 +21,7 @@ function Login({ onClose, onLoginSuccess }) {
       password: data.password,
     };
 
-    const loginPromise = axios.post('http://localhost:4001/user/login', userInfo);
+    const loginPromise = axios.post(`${import.meta.env.VITE_API_URL}/user/login`, userInfo);
 
     toast.promise(
       loginPromise,

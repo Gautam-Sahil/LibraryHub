@@ -34,7 +34,7 @@ const handleLoginSuccess = () => {
       password: data.password
     };
 
-    const signupPromise = axios.post('http://localhost:4001/user/signup', userInfo);
+    const signupPromise = axios.post(`${import.meta.env.VITE_API_URL}/user/signup`, userInfo);
 
     toast.promise(
       signupPromise,
