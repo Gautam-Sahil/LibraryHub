@@ -14,6 +14,8 @@ Database: MongoDB (e.g., MongoDB Atlas or local)
 
 Frontend: React.js (with React Router, Axios/fetch)
 
+DaisyUI: For UI
+
 Authentication: JSON Web Tokens (JWT)
 
 Hosting / Deployment: (Vercel + Render)
