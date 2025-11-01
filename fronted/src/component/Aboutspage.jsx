@@ -57,7 +57,7 @@ const AboutsPage = () => {
     {
       name: 'Liah Gotti',
       role: 'Community Manager',
-      image: 'https://scontent.fbom3-3.fna.fbcdn.net/v/t39.30808-6/534213919_694101163667050_7777089646454058199_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=833d8c&_nc_ohc=KZO1cZJiFQgQ7kNvwFvb3dw&_nc_oc=AdkH6SswC5UWZCLwbpX-JjHUIbI4TB5W0c_uNOhwz6FwpJ7vjxb0SzUyN5VcWk9zjLNCASVVlzFStqZmbFTm42LO&_nc_zt=23&_nc_ht=scontent.fbom3-3.fna&_nc_gid=Ud761vRlTCq9fKnWc1f65w&oh=00_AfejeWQnd8Ny349hCqekv2-isxOYUcprXcJP-bOG1d-Kfw&oe=6901C4A3'
+      image: 'https://scontent.fbom3-3.fna.fbcdn.net/v/t39.30808-6/534213919_694101163667050_7777089646454058199_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=833d8c&_nc_ohc=zrRdiZaVVjMQ7kNvwFyBEOD&_nc_oc=Adkl-dNDhE6ot_ae_4PEZ6Z0Uf1Bk5A0vLPzdxbO1upDyrRyftuXcKYuetaZw2BOXJcCnHerne6xW5r4k5YyXByb&_nc_zt=23&_nc_ht=scontent.fbom3-3.fna&_nc_gid=akju47CqU72Ypl5gFCWF3g&oh=00_AffBz_qO0F6hirYDHPuH-jTrHG9wIE3XBdeDXuIjubHaUQ&oe=690C1863'
     },
     {
       name: 'Mrunal',
