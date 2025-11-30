@@ -10,11 +10,11 @@ const AboutsPage = () => {
   }, []);
 
   const stats = [
-    { icon: BookOpen, value: '10,000+', label: 'Books Available', color: 'text-amber-500' },
-    { icon: Users, value: '50,000+', label: 'Active Readers', color: 'text-blue-500' },
-    { icon: Award, value: '500+', label: 'Premium Authors', color: 'text-emerald-500' },
-    { icon: Heart, value: '1M+', label: 'Books Read', color: 'text-rose-500' }
-  ];
+    { icon: BookOpen, value: '1000+', label: 'Books Available', color: 'text-amber-500' },
+    { icon: Users, value: '5000+', label: 'Active Readers', color: 'text-blue-500' },
+    { icon: Award, value: '100+', label: 'Premium Authors', color: 'text-emerald-500' },
+    { icon: Heart, value: '10L+', label: 'Books Read', color: 'text-rose-500' }
+  ];     
 
   const features = [
     {
@@ -57,7 +57,7 @@ const AboutsPage = () => {
     {
       name: 'Liah Gotti',
       role: 'Community Manager',
-      image: 'https://scontent.fbom3-3.fna.fbcdn.net/v/t39.30808-6/534213919_694101163667050_7777089646454058199_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=833d8c&_nc_ohc=zrRdiZaVVjMQ7kNvwFyBEOD&_nc_oc=Adkl-dNDhE6ot_ae_4PEZ6Z0Uf1Bk5A0vLPzdxbO1upDyrRyftuXcKYuetaZw2BOXJcCnHerne6xW5r4k5YyXByb&_nc_zt=23&_nc_ht=scontent.fbom3-3.fna&_nc_gid=akju47CqU72Ypl5gFCWF3g&oh=00_AffBz_qO0F6hirYDHPuH-jTrHG9wIE3XBdeDXuIjubHaUQ&oe=690C1863'
+      image: '../../assets/liah.jpg'
     },
     {
       name: 'Mrunal',
@@ -75,7 +75,7 @@ const AboutsPage = () => {
           
         <video
           className="absolute inset-0 w-full h-full object-cover"
-          src="https://cdn.pixabay.com/video/2025/03/18/265731_large.mp4" 
+          src="../../265731_large.mp4"
           autoPlay
           loop
           muted
